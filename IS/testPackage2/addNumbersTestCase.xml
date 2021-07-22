@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="Auto Generated from Template" name="TS_addNumbersTestCase.xml">
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_addNumbers">
+        <service folder="testPackage2.services" name="addNumbers">
+            <input>
+                <file filename="testPackage2_services_addNumbers_input.xml"/>
+            </input>
+            <expected>
+                <file filename="testPackage2_services_addNumbers_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
